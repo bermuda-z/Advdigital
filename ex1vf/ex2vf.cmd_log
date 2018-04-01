@@ -1,0 +1,57 @@
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+netgen -intstyle ise -ar Structure -tm ex2vf -w -dir netgen/synthesis -ofmt vhdl -sim ex2vf.ngc ex2vf_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+netgen -intstyle ise -ar Structure -tm ex2vf -w -dir netgen/synthesis -ofmt vhdl -sim ex2vf.ngc ex2vf_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 
+xst -intstyle ise -ifn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.xst" -ofn "C:/Users/Bermuda/Desktop/ch2v/ex1vf/ex2vf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex2vf.ucf -p xc3s400-tq144-4 ex2vf.ngc ex2vf.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o ex2vf_map.ncd ex2vf.ngd ex2vf.pcf 
+par -w -intstyle ise -ol high -t 1 ex2vf_map.ncd ex2vf.ncd ex2vf.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ex2vf.twx ex2vf.ncd -o ex2vf.twr ex2vf.pcf -ucf ex2vf.ucf 
+bitgen -intstyle ise -f ex2vf.ut ex2vf.ncd 

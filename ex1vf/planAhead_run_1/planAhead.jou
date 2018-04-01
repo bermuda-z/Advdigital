@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Jan 22 13:39:19 2018
+# Process ID: 10040
+# Log file: C:/Users/Bermuda/Desktop/ch2v/ex1vf/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Bermuda/Desktop/ch2v/ex1vf/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Bermuda/Desktop/ch2v/ex1vf/pa.fromNetlist.tcl
+set_property package_pin "" [get_ports [list  {A[0]}]]
+set_property package_pin "" [get_ports [list  {A[2]}]]
+set_property package_pin "" [get_ports [list  {A[0]}]]
+startgroup
+set_property package_pin P52 [get_ports {A[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {A[1]}]]
+startgroup
+set_property package_pin P55 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin P53 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P60 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin P76 [get_ports {C[3]}]
+endgroup
+startgroup
+set_property package_pin P69 [get_ports {C[2]}]
+endgroup
+startgroup
+set_property package_pin P77 [get_ports {C[1]}]
+endgroup
+startgroup
+set_property package_pin P70 [get_ports {C[0]}]
+endgroup
+save_constraints
+set_property is_loc_fixed false [get_ports [list  {A[2]}]]
+set_property is_loc_fixed true [get_ports [list  {A[2]}]]
+save_constraints
+startgroup
+set_property package_pin P35 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin P21 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P20 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin P76 [get_ports {C[3]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {C[3]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {C[2]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {C[1]}]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P30 [get_ports {C[0]}]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P26 [get_ports {C[3]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {C[2]}]
+endgroup
+startgroup
+set_property package_pin P28 [get_ports {C[1]}]
+endgroup
+save_constraints -force
